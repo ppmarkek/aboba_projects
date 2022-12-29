@@ -68,3 +68,28 @@ header {
     display: flex;
     gap: 24px;
 }
+
+.navigator {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    gap: 36px;
+}
+
+.navigator button {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 233px;
+    height: 56px;
+    background: unset;
+    border: none;
+    cursor: pointer;
+    color: var(--white);
+    border-radius: 16px;
+    padding: 0px 25px;
+}
+
+.navigator button:hover {
+    background: linear-gradient(101.05deg, #1F8EBE -5.36%, #440495 29.46%, #440495 56.03%, #B102CD 81.92%);
+}
